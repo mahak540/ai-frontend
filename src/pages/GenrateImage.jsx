@@ -32,7 +32,7 @@ export default function Image() {
       setLoading(true);
 
       const response = await axios.post(
-        "http://localhost:5000/generate-image",
+        "https://ai-backend-qkcf.onrender.com/generate-image",
         {
           prompt
         }
