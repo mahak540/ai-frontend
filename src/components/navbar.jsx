@@ -14,7 +14,7 @@ function Navbar() {
         try{
 
             const response = await axios.get(
-                "http://localhost:5000/current-user",
+                "https://ai-backend-qkcf.onrender.com/current-user",
                 {
                     withCredentials:true
                 }
