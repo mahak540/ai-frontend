@@ -50,7 +50,7 @@ export default function Signup() {
 
       console.log(err);
 
-      alert("Signup Failed");
+      alert("Signup Failed not working");
     }
   };
 
