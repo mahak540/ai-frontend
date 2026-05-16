@@ -29,7 +29,7 @@ export default function Signup() {
     e.preventDefault();
 
     try {
-
+       console.log("routes working");
       const response = await axios.post(
         "https://ai-backend-qkcf.onrender.com/signup",
         formData
